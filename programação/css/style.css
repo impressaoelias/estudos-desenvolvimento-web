@@ -1,0 +1,22 @@
+p {
+    color: orange;
+}
+
+a{
+    color: green;
+}
+li {
+    background-color: rgb(0, 195, 255);
+    border: 1px solid blue;
+}
+table {
+    background-color: orange;
+    border: 6px solid rgb(81, 1, 1);
+}
+td {
+    border: 3px solid black;
+  
+}
+hr {
+    color: blueviolet;
+}
