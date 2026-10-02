@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mais Formularios</title>
+</head>
+<body>
+    
+    <h1>mais Formularios</h1>
+
+    <form action="processa.html" method="GET" target="_blank">
+
+    <h2>label</h2>
+
+<!--
+label -> legenda para item da interface
+for -> para
+-->
+<!--
+<label for="nome">Nome</label>
+<input type="text" name="nome" id="nome">
+
+
+<label for="email">Email</label>
+
+<input type="text" name="email" id="email">
+-->
+<hr>
+
+<h2>mais Formularios</h2>
+
+Genero<br>
+<input type="radio" name="genero" value="Feminino" id="fem">
+<label for="fem">feminino</label>
+
+<input type="radio" name="genero" value="Masculino" id="mas">
+<label for="mas">Masculino</label> 
+
+<br><br>
+
+
+Estilo musical<br>
+<input type="checkbox" name="estilo" value="pop" id="pop">
+<label for="pop">Pop</label>
+
+<input type="checkbox" name="estilo" value="rock" id="rock">
+<label for="rock">Rock</label>
+
+<br>
+
+<input type="checkbox" name="estilo" value="sertanejo" id="sert">
+<label for="sert">sertanejo</label>
+
+<input type="checkbox" name="estilo" value="funk" id="funk">
+<label for="funk">Funk</label>
+
+<br><br>
+
+Estado:
+<select>
+    <option value="">Selecione</option>
+    <option value="sp">São Paulo</option>
+    <option value="mg">Minas Gerais</option>
+    <option value="ms">Mato Grosso do Sul</option>
+    <option value="rj">Rio de Janeiro</option>
+</select>
+
+
+<br><br>
+
+Upload de arquivos
+<input type="file" name="arquivos">
+
+<br><br>
+
+<input type="submit" value="cadastrar">
+
+    </form>
+<form action="processa.html" method="get" target="_blank">
+<h2>fieldset & legend</h2>
+<!--
+fieldset -> conjunto de campos
+legend -> legenda para o conjunto de campos
+-->
+<fieldset>
+    <legend>Dados pessoais</legend>
+   
+<label for="email">Email</label>
+    <input type="text" name="email" id="email">
+<br>
+<label for="senha">Senha</label>
+<input type="text" name="senha"id="senha"
+
+</fieldset>
+<br><br>
+<input type="submit" value="cadastrar">
+
+</form>
+
+</body>
+</html>
